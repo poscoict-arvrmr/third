@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
-def VUFORIA_SDK_DIR = '../../..'
+def VUFORIA_SDK_DIR = '../../../Android/vuforia-sdk-android-7-0-47'
 def NATIVE_LIB_DIR = 'build/lib'
 def JAR_DIR = 'build/java/vuforia'
 
 android {
     compileSdkVersion 22
-    buildToolsVersion "25.0.3"
+    //buildToolsVersion "25.0.3"
 
     sourceSets.main {
         jni.srcDirs = []
